@@ -72,7 +72,7 @@ class AnimatedSplashScreen extends StatefulWidget {
         type: _splashType.backgroundScreenReturn,
         transitionType: pageTransitionType,
         splashTransition: splashTransition,
-        backgroundColor: backgroundColo
+        backgroundColor: backgroundColor,
         customAnimation: customTween,
         function: screenFunction,
         duration: duration,
