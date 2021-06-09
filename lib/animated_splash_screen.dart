@@ -230,7 +230,7 @@ class _AnimatedSplashScreenState extends State<AnimatedSplashScreen>
     _context = context;
 
     return Scaffold(
-      resizeToAvoidBottomPadding: false,
+      resizeToAvoidBottomInset: false,
       backgroundColor: w.backgroundColor,
       body: getSplash()
     );
